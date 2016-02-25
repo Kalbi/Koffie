@@ -1,0 +1,138 @@
+
+header {
+	width:100%;
+	position:fixed;
+	background-color:#8e44ad;
+	height:50px;
+	padding:0;
+	top:0;
+	right:0;
+}
+
+a:link, a:visited, a:hover, a:active {
+    color:#fff;
+    text-decoration: none;
+}
+
+
+
+h1,h2,h3,h4,h5,h6{
+	margin:0;
+}
+
+body {
+	height:100%;
+ 	font: normal 18px "Roboto", Arial, sans-serif
+}
+
+.container {
+	 
+	width:100%;
+	height:100px;
+	padding-top:70px;
+}
+
+ul {
+	list-style-type: none;
+	 
+
+}
+border
+li {
+	 
+}
+
+.fa {
+	color:#fff;
+	cursor:pointer;
+}
+
+ 
+
+
+/****COFEE LIST******/
+.coffee-list li{
+	height:150px;
+}
+
+.coffee-img{
+	display:inline-block;
+	width:150px;
+	height:100%;
+	vertical-align: top;
+}
+
+.coffee-list-description {
+	 display:inline-block;
+	  
+}
+
+/***HEADER***/
+.menu-button{
+	 
+	height:50px;
+	width:50px;
+	text-align:center;
+	float:right;
+	cursor:pointer;
+}
+
+
+input{
+    margin-left:20%;
+    margin-top:-20px;
+    width:500px;
+    height:200px;
+     
+
+}
+
+/***NAVIGATOIN***/
+nav{
+	height:200%;
+	right:-200px;
+	top:50px;
+	position:fixed;
+	width:200px;
+	background-color:#8e44ad;
+	 
+}
+
+.profile-picture {
+	display:inline-block;
+	border-radius: 50%;
+}
+
+.profile-picture + h6 {
+	display:inline-block;
+	top:0;
+}
+
+nav > ul {
+	padding:0;
+	color:#fff;
+}
+
+nav > ul > li > a{
+	display:inline-block;
+	width:100%;
+	height:100%;
+	padding:10px 20px;
+	text-align:center;
+
+}
+
+nav > ul > li > a:hover{
+	background-color:#9b59b6;
+}
+
+nav > ul > li{
+ 	border-top:1px solid #9b59b6;
+}
+
+nav > ul > li:last-child{
+ 	border-bottom:1px solid #9b59b6;
+}
+
+
+ 
