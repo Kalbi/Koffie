@@ -1,13 +1,4 @@
-
-header {
-	width:100%;
-	position:fixed;
-	background-color:#8e44ad;
-	height:50px;
-	padding:0;
-	top:0;
-	right:0;
-}
+/*================ GLOBAL ================*/
 
 a:link, a:visited, a:hover, a:active {
     color:#fff;
@@ -22,7 +13,8 @@ h1,h2,h3,h4,h5,h6{
 
 body {
 	height:100%;
- 	font: normal 18px "Roboto", Arial, sans-serif
+ 	font: normal 18px "Roboto", Arial, sans-serif;
+
 }
 
 .container {
@@ -37,7 +29,7 @@ ul {
 	 
 
 }
-border
+ 
 li {
 	 
 }
@@ -47,10 +39,29 @@ li {
 	cursor:pointer;
 }
 
+/*================ HEADER ================*/
+.logo{
+	display:inline-block;
+	height:50px;
+	width:50px;
+
+}
+
+.search-bar{
+	height:30px;
+	border:1px solid #ecf0f1;
+	padding:10px;
+	border-radius: 4px; 
+	width:500px;
+	display:inline-block;
+	vertical-align:top;
+	margin-top:10px;
+	margin-left:20%;
+}
  
 
 
-/****COFEE LIST******/
+/*================ COFFEE LIST ================*/
 .coffee-list li{
 	height:150px;
 }
@@ -67,27 +78,40 @@ li {
 	  
 }
 
-/***HEADER***/
+/*================ HEADER ================*/
+
+
+header {
+	width:100%;
+	position:fixed;
+	background-color:#8e44ad;
+	height:50px;
+	padding:0;
+	top:0;
+	right:0;
+}
+
+ 
+
 .menu-button{
 	 
-	height:50px;
-	width:50px;
-	text-align:center;
-	float:right;
 	cursor:pointer;
+	display:inline-block;
+	padding-top:15px;
+	padding-right:15px;
+	vertical-align:top;
+	float:right;
 }
 
-
-input{
-    margin-left:20%;
-    margin-top:-20px;
-    width:500px;
-    height:200px;
-     
-
+.login-button{
+	float:right;
+	padding-right:10px;
+	padding-top:15px;
+	text-align:center;
 }
+ 
 
-/***NAVIGATOIN***/
+/*================ NAVIGATOIN ================*/
 nav{
 	height:200%;
 	right:-200px;
@@ -98,6 +122,8 @@ nav{
 	 
 }
 
+ 
+
 .profile-picture {
 	display:inline-block;
 	border-radius: 50%;
@@ -105,7 +131,7 @@ nav{
 
 .profile-picture + h6 {
 	display:inline-block;
-	top:0;
+	vertical-align: top;
 }
 
 nav > ul {
@@ -135,4 +161,40 @@ nav > ul > li:last-child{
 }
 
 
- 
+
+/*================ PROFILE ================*/
+
+.profile-nav {
+	border:1px solid black;
+	width:25%;
+	height:80%;
+	display:inline-block;
+	vertical-align: top;
+	position:fixed;
+}
+
+.profile-nav > ul > li > img {
+	border:1px solid black;
+}
+
+.profile-body {
+	border:1px solid black;
+	display:inline-block;
+	width:70%;
+	height:80%;
+	margin-left:28%;
+}
+
+.profile-body > ul > li > * {
+	display:inline-block;
+}
+
+
+/*================ LOGIN ================*/
+.login-form > div > label{
+	display: inline-block;
+}
+
+
+
+
